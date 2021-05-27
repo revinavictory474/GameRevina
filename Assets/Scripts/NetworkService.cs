@@ -5,7 +5,7 @@ using UnityEngine.Networking;
 
 public class NetworkService
 { 
-    private const string jsonApi = "http://api.openweathermap.org/data/2.5/weather?q=Karachi&appid=e0b9716b5bde2b76a9b84ff2e5d6744f";
+    private const string jsonApi = "http://api.openweathermap.org/data/2.5/weather?q=Krasnoyarsk&appid=e0b9716b5bde2b76a9b84ff2e5d6744f";
     private const string webImage = "https://upload.wikimedia.org/wikipedia/commons/c/c5/Moraine_Lake_17092005.jpg";
 
     private IEnumerator CallAPI(string url, Action<string> callback)
